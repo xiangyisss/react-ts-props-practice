@@ -13,7 +13,7 @@ export const Child = ({ name, ...props }: PersonalInfo) => {
   const { middleName = 'Happy', grade, age, style, className } = props;
   return (
     <div className={className}>
-      <p>This is child component</p>
+      <p>This is props practice component</p>
       <p style={style}>
         Hello, My name is {name}, middle name is {middleName}, {age} years old,
         Now I'm in grade {grade} .
